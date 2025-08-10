@@ -1,7 +1,7 @@
 [tool.uv.build-backend]
 module-name = "generator"
 module-root = ""
- 
+
 [build-system]
 requires = ["uv_build>=0.8.7,<0.9.0"]
 build-backend = "uv_build"
@@ -12,7 +12,18 @@ version = "0.1.0"
 description = "Render a note from a pre-defined template"
 readme = "README.md"
 requires-python = ">=3.12.0"
+license = "CC-BY-4.0"
+authors = [
+  {name = "ninoCan", email = "ninocangialosi@yahoo.it"},
+]
 dependencies = [
     "jinja2>=3.1.6",
-    "tomli>=2.2.1",
 ]
+
+[project.scripts]
+new-note = "generator.new_note:main"
+
+
+[tool.zettelkasten]
+# relative path to destination folder
+destination = "notes"

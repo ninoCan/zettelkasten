@@ -2,7 +2,9 @@
 
 > [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten): card file, coming from (German) _zetteln_ meaning slip/note, and _kasten_ meaning crate/box.
 
-This is a collection of personal notes.
+This is a collection of personal notes. Feel free to use.
+
+**Feel even more free to point out mistakes.**
 
 
 ## How to zettelkasten?

@@ -39,3 +39,5 @@ To invoke the note rendering call:
 ```
 new-note "Title of the note"
 ```
+
+For this to work, `uv` and `direnv` needs to be installed in the system.

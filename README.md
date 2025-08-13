@@ -26,6 +26,10 @@ date: <date-of-creation>
 [<anchor>]: <link> "title"
 ```
 
+The unique id is going to a base62-encoded string.
+Thus, enabling the storage of at most 13_537_086_546_263_552 slips.
+We should never run of indexes...
+
 ## Additional tools
 
 Because of the semi-structured nature of the notes, it might be useful to leverage external tools to reduce redundant operations.
